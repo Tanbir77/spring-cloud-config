@@ -1,0 +1,8 @@
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://my-eureka-server-1.com:8761/eureka
+    instance:
+      hostname: my-eureka-server-1.com
